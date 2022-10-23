@@ -4126,6 +4126,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
 }
 button::-moz-focus-inner,
@@ -4167,11 +4168,13 @@ textarea {
   height: auto;
 }
 [type="search"] {
+  appearance: button;
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
+  appearance: button;
   -webkit-appearance: none;
 }
 ::-webkit-input-placeholder {
@@ -4179,6 +4182,7 @@ textarea {
   opacity: 0.54;
 }
 ::-webkit-file-upload-button {
+  appearance: button;
   -webkit-appearance: button;
   font: inherit;
 }
@@ -17131,6 +17135,7 @@ blockquote .small:before {
   background: none;
   cursor: pointer;
   overflow: visible;
+  appearance: button;
   -webkit-appearance: none;
   display: block;
   border: 0;
